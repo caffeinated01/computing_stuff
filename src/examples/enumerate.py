@@ -8,4 +8,4 @@ Enumerate adds counter to an iterable and returns it. The returned object is an 
 
 a = ["JJC", "NYJC", "TJC", "CJC", "HCI", "RJC", "YIJC"]
 for i, v in enumerate(a):
-    print(i, v)  # i refers to index, while v refers to
+    print(i, v)  # i refers to index, while v refers to value
