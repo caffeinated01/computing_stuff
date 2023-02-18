@@ -3,6 +3,7 @@
 <p align = "center">Made with ❤️ by <a href="github.com/caffeinated01/">caffeinated01 (Javier)</p></h9>
 <p align = "center">
     <a>
+        <img alt="Contribution" src="https://img.shields.io/github/commit-activity/m/caffeinated01/computing_stuff?style=for-the-badge&logo=git&color=b69be0&logoColor=FFFFFF&labelColor=f08494">
         <img alt="Contribution" src="https://img.shields.io/github/contributors/caffeinated01/computing_stuff?style=for-the-badge&logo=gitbook&color=b69be0&logoColor=FFFFFF&labelColor=f08494">
     </a>
 </p>
