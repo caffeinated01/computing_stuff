@@ -6,13 +6,13 @@
         <img alt="Contribution" src="https://img.shields.io/github/contributors/caffeinated01/computing_stuff?style=for-the-badge&logo=gitbook&color=b69be0&logoColor=FFFFFF&labelColor=f08494">
     </a>
 </p>
-<img src="https://raw.githubusercontent.com/caffeinated01/computing_stuff/main/assets/bar.png">
+<img src="https://raw.githubusercontent.com/caffeinated01/computing_stuff/master/assets/bar.png">
     
 ### Includes
 - practice questions and solutions
 - examples of concepts taught
 
-<img src="https://raw.githubusercontent.com/caffeinated01/computing_stuff/main/assets/bar.png">
+<img src="https://raw.githubusercontent.com/caffeinated01/computing_stuff/master/assets/bar.png">
 
 ### Contribution
 1) Fork the repo
