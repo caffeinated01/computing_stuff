@@ -1,6 +1,6 @@
 <h3 align = "center">insert cool repo name</h3>
 <h5 align = "center">A compilation of what is covered in my computing class</h5>
-<p align = "center">Made with ❤️ by <a href="github.com/caffeinated01/">caffeinated01 (Javier)</p></h9>
+<p align = "center">Made with ❤️ by <a href="github.com/caffeinated01/">caffeinated01 (Javier)</a> and <a href="github.com/DiffuseHyperion">DiffuseHyperion (Ying Jie)</a></p></h9>
 <p align = "center">
     <a>
         <img alt="Contribution" src="https://img.shields.io/github/commit-activity/m/caffeinated01/computing_stuff?style=for-the-badge&logo=git&color=b69be0&logoColor=FFFFFF&labelColor=f08494">
