@@ -1,4 +1,4 @@
-# Math examples (aaa)
+# Math examples
 
 # Basic operations
 print(9 + 10)
@@ -7,7 +7,7 @@ print(9 - 6)
 
 print(6 * 9)
 
-print (420 / 10)
+print(420 / 10)
 
 # More advanced stuff
 # ** means power/indice, this is effectively 5^3
