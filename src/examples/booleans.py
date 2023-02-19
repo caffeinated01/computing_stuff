@@ -32,9 +32,6 @@ print(5 < 5)  # False
 print(5 <= 5)  # True
 print(4 <= 5)  # True
 
-# You can reverse a boolean using not().
-print(not (True))  # False
-
 # You can use "and" to give True when both its inputs are True.
 print(True and True)  # True
 print(True and False)  # False
@@ -54,10 +51,10 @@ print(3 == 4 or (5 < 6 and 6 > 5))  # True
 # Is also True, but a bit harder to understand.
 print(3 == 4 or 5 < 6 and 6 > 5)
 
-# You can use "not" to get the opposite of the expected output
+# You can use "not" to reverse the boolean
 print(not(True)) # False
 print(not(False)) # True 
-# Note that you do not need to put parentheses as "not" is not a function
+# Note that you do not need to enclose your expression with parentheses as "not" is not a function
 # Here are more examples of the usage of "not"
 print(not (1==1 and 1=="1")) #True
 print(not (1!=1 or True)) # False
