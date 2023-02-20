@@ -1,5 +1,5 @@
 """
-tell me how many element has 2 vowels in the last 4 letters
+Print the elements that have 2 vowels in the last 4 letters
 """
 
 characters = ["House", "Donald", "Goofy", "Pikachu", "Netflix", "Fantasy"]
@@ -13,4 +13,3 @@ for word in characters:
             counter += 1
     if counter == 2:
         print(word + " has 2 vowels")
-    
