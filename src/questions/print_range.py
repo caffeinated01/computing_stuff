@@ -4,8 +4,8 @@ in a list of numbers from 1 to 100, print out numbers that are:
 - divisible by 3 and 5
 show position too
 """
-list = list(range(1, 100 + 1))
+numlist = list(range(1, 100 + 1))
 
-for index, number in enumerate(list):
+for index, number in enumerate(numlist):
     if 30 <= number and number <= 80 and number % 3 == 0 and number % 5 == 0:
         print(index + 1, number)
