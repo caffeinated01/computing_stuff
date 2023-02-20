@@ -1,8 +1,8 @@
 """
-in a list of numbers from 1 to 100, print out numbers that are:
+In a list of numbers from 1 to 100, print out numbers that are:
 - between 30 and 80 inclusive
 - divisible by 3 and 5
-show position too
+print out the index of the number as well
 """
 numlist = list(range(1, 100 + 1))
 
