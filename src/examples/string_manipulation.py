@@ -25,3 +25,8 @@ print(split.split(", "))  # Returns ['Hello', 'Beautiful', 'World']
 excess = "asasasas.....,,,,,!!!!Hello World"
 # Returns Hello World
 print(excess.strip("as.,!"))  # Specify the characters as a parameter
+
+# To join elements from a list into a string, use .join()
+strings = ["Hello", "Beautiful", "World"]
+# Returns Hello Beautiful World
+print(" ".join(strings))  # Syntax: string.join(iterable)
