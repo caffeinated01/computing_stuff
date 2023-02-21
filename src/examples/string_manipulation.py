@@ -20,3 +20,8 @@ print(string.split())  # Returns ['Hello', 'Beautiful', 'World']
 # You can specify a parameter in the split() function
 split = "Hello, Beautiful, World"
 print(split.split(", "))  # Returns ['Hello', 'Beautiful', 'World']
+
+# To remove any character from a string, use .strip()
+excess = "asasasas.....,,,,,!!!!Hello World"
+# Returns Hello World
+print(excess.strip("as.,!"))  # Specify the characters as a parameter
