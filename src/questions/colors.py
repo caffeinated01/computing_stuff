@@ -11,7 +11,6 @@ The program would print ['white','black']
 """
 
 num = int(input("How many colors do you want to input?\n"))
-res = []
 
 color = str(input("Colors?\n"))
 
