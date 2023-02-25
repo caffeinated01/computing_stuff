@@ -11,18 +11,20 @@ The program would print ['white','black']
 """
 
 num = int(input("How many colors do you want to input?\n"))
+res = []
 
 color = str(input("Colors?\n"))
 
-for i in range(num):
-    list = color.split(", ")
+list = color.split(", ")
+
+if len(list) > num:
+    for i in range(num,len(list)):
+        list.pop(i)
 
 for j in list:
-    if j == "orange":
-        list.remove(j)
-    elif j == "yellow":
+    if j == "orange" or j == "yellow":
         list.remove(j)
     else:
-        continue
+        pass
 
 print(list)
