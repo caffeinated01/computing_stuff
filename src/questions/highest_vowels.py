@@ -36,6 +36,6 @@ for n in vowellist:
         two.append(currentword)
     total += n
 
-print("The word with the highest number of vowels is {}".format(highest_word))
+print("The word with the highest number of vowels is {} and it has {} vowels".format(highest_word,highest))
 print("The words with two vowels are {}".format(two))
 print("The total number of vowels {}".format(total))
