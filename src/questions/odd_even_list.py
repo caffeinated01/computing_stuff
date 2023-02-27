@@ -31,7 +31,7 @@ print("New list: {}".format(new))
 for a,v in enumerate(new):
   if (a-1)%2 == 0:
     odd += v
-  if a%2 == 0and (v%3 ==0 or v%7 ==0):
+  if a%2 == 0 and (v%3 ==0 or v%7 ==0):
     even += v
 
 print("Odd sum: {}".format(odd))
