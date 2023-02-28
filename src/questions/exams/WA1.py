@@ -1,6 +1,9 @@
 # Question 4
 """
-Write a program that requires someone to enter three words, one at each time. The word will be checked with the number of vowels in there. If number of vowels is equal or more than 2, the word will be pre-fixed with "Big" at the front of the word. Otherwise it will be pre-fixed with "Small", print out the transformed words in a list format 
+Write a program that requires someone to enter three words, one at each time. 
+The word will be checked with the number of vowels in there.
+If number of vowels is equal or more than 2, the word will be pre-fixed with "Big" at the front of the word.
+Otherwise it will be pre-fixed with "Small", print out the transformed words in a list format 
 """
 
 words = []
