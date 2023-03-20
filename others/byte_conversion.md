@@ -9,7 +9,7 @@
 |terabyte       | TB     | 1,000^4    | 1,000,000,000,000     |
 |tebibyte       | TiB    | 1,024^4    | 1,099,511,627,776     |
 
-###Examples
+### Examples
 20 kilobyte to gigabyte
 ```(20×1000)÷(1000^3)=0.00002```
 
