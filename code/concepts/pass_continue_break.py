@@ -14,7 +14,7 @@ for i in list1:
 
 list2 = list(range(1,20))
 
-for j in list2
+for j in list2:
     if j%3:
         continue
     if j%5:
@@ -27,8 +27,8 @@ for j in list2
 
 list3 = list(range(1,6))
 
-for a in :
-    a == 6:
+for a in list3:
+    if a == 6:
         break
     else:
         print(a)
