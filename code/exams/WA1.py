@@ -6,6 +6,7 @@ If number of vowels is equal or more than 2, the word will be pre-fixed with "Bi
 Otherwise it will be pre-fixed with "Small", print out the transformed words in a list format 
 """
 
+from math import pi
 words = []
 vowels = "aeiouAEIOU"
 new = []
@@ -18,7 +19,7 @@ for a in words:
     counter = 0
     for j in a:
         if j in vowels:
-            counter +=1
+            counter += 1
     if counter >= 2:
         new.append("Big {}".format(a))
     else:
@@ -38,18 +39,15 @@ OR
 >> "Sphere volume is V cm3 with radius of r cm"
 """
 
-from math import pi
 
 tvol = input("Calculate what type of volume? (C/S)")
 if tvol.lower() == "c":
     cradius = float(input("Enter radius: "))
     cheight = float(input("Enter height: "))
-    cvol = round((pi*(cradius**2)*(cheight/3)),2)
-    print("Cone volume is {}cm3 with radius of {}cm and height of {}cm".format(cvol,cradius,cheight))
+    cvol = round((pi*(cradius**2)*(cheight/3)), 2)
+    print("Cone volume is {}cm3 with radius of {}cm and height of {}cm".format(
+        cvol, cradius, cheight))
 if tvol.lower() == "s":
     sradius = float(input("Enter radius: "))
-    svol = round((4/3)*pi*(sradius**3),2)
-    print("SPhere volume is {}cm3 with radius of {}cm".format(svol,sradius))
-
-
-
+    svol = round((4/3)*pi*(sradius**3), 2)
+    print("SPhere volume is {}cm3 with radius of {}cm".format(svol, sradius))
