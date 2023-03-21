@@ -45,9 +45,9 @@ if tvol.lower() == "c":
     cradius = float(input("Enter radius: "))
     cheight = float(input("Enter height: "))
     cvol = round((pi*(cradius**2)*(cheight/3)), 2)
-    print("Cone volume is {}cm3 with radius of {}cm and height of {}cm".format(
+    print("Cone volume is {}cm\u00b3 with radius of {}cm and height of {}cm".format(
         cvol, cradius, cheight))
 if tvol.lower() == "s":
     sradius = float(input("Enter radius: "))
     svol = round((4/3)*pi*(sradius**3), 2)
-    print("SPhere volume is {}cm3 with radius of {}cm".format(svol, sradius))
+    print("Sphere volume is {}cm\u00b3 with radius of {}cm".format(svol, sradius))
