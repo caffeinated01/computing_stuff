@@ -25,7 +25,7 @@ for a in words:
     else:
         new.append("Small {}".format(a))
 
-print("Words with more than 2 vowels are {}".format(new))
+print(new)
 
 # Question 5
 """
