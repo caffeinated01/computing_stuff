@@ -40,3 +40,9 @@ print(example6)
 # Generate a number list with list() and range()
 example7 = list(range(0, 11))  # Last number not inclusive
 print(example7)  # Returns [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# How to find average 
+# average = total sum/number of elements
+mixed = [1,5,142,41,51,6,12,91]
+average = sum(mixed)/len(mixed)
+print(average)
