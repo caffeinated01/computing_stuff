@@ -41,8 +41,12 @@ print(example6)
 example7 = list(range(0, 11))  # Last number not inclusive
 print(example7)  # Returns [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-# How to find average 
+# How to find average
 # average = total sum/number of elements
-mixed = [1,5,142,41,51,6,12,91]
+mixed = [1, 5, 142, 41, 51, 6, 12, 91]
 average = sum(mixed)/len(mixed)
 print(average)
+
+# Count method
+example8 = [11, 13, 15, 17, 18, 11, 14, 12, 13, 17, 14, 16, 18, 19, 14]
+print(example.count(11))  # The number of 11's in this list
