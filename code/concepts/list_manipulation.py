@@ -50,3 +50,23 @@ print(average)
 # Count method
 example8 = [11, 13, 15, 17, 18, 11, 14, 12, 13, 17, 14, 16, 18, 19, 14]
 print(example.count(11))  # The number of 11's in this list
+
+# Sort method
+# Sort does not make a new list, it sorts the original list
+example9 = [4,2,5,1,3]
+example9.sort() # Sorts all numbers in the list
+print(example9)
+example9.sort(reverse = True) # reverse = true reverses the order
+print(example9)
+
+# Sorted function
+# Same as sort, but does not affect the original list
+example10 = sorted(example9) 
+example11 = sorted(example9, reverse = True) # Can use reverse = true on sorted too
+print(example9)
+print(example10)
+
+# Reverse method
+# Reverse the order of a list
+example12 = [5,4,3,2,1]
+print(example12.reverse())
