@@ -1,3 +1,10 @@
+"""
+You and your team are organising an event for three schools; Xinmin, Bowen, and Hougang
+Each school is only allowed to have three students to participate.
+Write a program that takes in emails of students and organises them into lists for their repsective schools
+Check if there are available slots for the activity and terminate the program when it is full 
+"""
+
 import re
 
 xmslist,bowlist,houlist = [],[],[]
